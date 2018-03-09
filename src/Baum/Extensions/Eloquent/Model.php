@@ -1,7 +1,7 @@
 <?php
 namespace Baum\Extensions\Eloquent;
 
-use Illuminate\Database\Eloquent\Model as BaseModel;
+use App\Models\BaseModel;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 use Baum\Extensions\Query\Builder as QueryBuilder;
