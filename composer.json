@@ -28,5 +28,12 @@
     "psr-0": {
       "Baum": "src/"
     }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Baum\\Providers\\BaumServiceProvider"
+      ]
+    }
   }
 }
